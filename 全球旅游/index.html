@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>全球旅游</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Global Tours Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- gallery -->
+<link rel="stylesheet" href="css/lightbox.css">
+<!-- //gallery -->
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Kaushan+Script&amp;subset=latin-ext" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+</head>
+<body>
+	<div class="banner-top">
+		<div class="slider">
+			<div class="callbacks_container">
+				<ul class="rslides callbacks callbacks1" id="slider4">
+					<li>
+						<div class="w3layouts-banner-top">
+							<div class="container">
+								<div class="agileits-banner-info">
+									<h3>N</h3>
+									<h4>新泽西</h4>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="w3layouts-banner-top w3layouts-banner-top1">
+							<div class="container">
+								<div class="agileits-banner-info1">
+									<h3>D</h3>
+									<h4>迪拜</h4>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="w3layouts-banner-top w3layouts-banner-top2">
+							<div class="container">
+								<div class="agileits-banner-info2">
+									<h3>S</h3>
+									<h4>新加坡</h4>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="w3layouts-banner-top w3layouts-banner-top3">
+							<div class="container">
+								<div class="agileits-banner-info3">
+									<h3>A</h3>
+									<h4>澳大利亚</h4>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="w3layouts-banner-top w3layouts-banner-top4">
+							<div class="container">
+								<div class="agileits-banner-info4">
+									<h3>B</h3>
+									<h4>百慕大群岛</h4>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+			<script src="js/responsiveslides.min.js"></script>
+			<script>
+				$(function(){
+					$("#slider4").responsiveSlides({
+						auto: true,
+						pager:true,
+						nav:false,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+							$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+						}
+					});
+					
+				});
+			</script>
+		</div>
+	</div>
+	<!-- banner 开始 -->
+	<div class="banner">
+		<div class="header">
+			<div class="container">
+				<div class="header-left">
+					<div class="w3layouts-logo">
+						<h1>
+							<a href="index.html">全球 <span>旅游</span></a>
+						</h1>
+					</div>
+				</div>
+				<div class="header-right">
+					<p><i class="fa fa-phone" aria-hidden="true"></i> +1 234 567 8901</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="container">
+				<div class="top-nav">
+						<nav class="navbar navbar-default">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li><a class="active list-border scroll" href="index.html">全球旅游</a></li>
+									<li><a href="#about" class="scroll">关于我们</a></li>
+									<li><a href="#services" class="scroll">服务提供</a></li>
+									<li><a href="#gallery" class="scroll">景点介绍</a></li>
+									<li><a href="#news" class="scroll">旅行日志</a></li>
+									<li><a class="list-border1 scroll" href="#contact" class="scroll">联系我们</a></li>
+								</ul>	
+								<div class="clearfix"> </div>
+							</div>	
+						</nav>		
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner 结束 -->
+	<!-- about 开始-->
+	<div class="about" id="about">
+		<div class="w3-about-top">
+			<h3>A</h3>
+		</div>
+		<div class="w3l-about">
+			<div class="container">
+				<div class="w3ls-heading">
+					<h2>关于我们</h2>
+				</div>
+				<div class="w3ls-about-info">
+					<p>旅游是一件昂贵的事，它承载了我们对异国的梦想，它源于一张照片、一部电影、亦或一本小说。除了金钱，我们也需要奢侈的时间和充足的体力。全球旅游网以“让旅游更简单”为使命，为消费者提供全球180个城市出发的旅游产品预订服务，产品全面，价格透明，全年365天24小时电话预订，并提供丰富的后续服务和保障。目前，全球旅游提供100万余种旅游产品供消费者选择，涵盖跟团、自助、自驾、邮轮、酒店、签证、景区门票以及公司旅游等。</p>
+					<div class="w3ls-about-grids">
+						<div class="col-md-3 w3ls-about-grid">
+							<img src="images/a1.jpg" alt="" />
+						</div>
+						<div class="col-md-3 w3ls-about-grid">
+							<img src="images/a2.jpg" alt="" />
+						</div>
+						<div class="col-md-3 w3ls-about-grid">
+							<img src="images/a3.jpg" alt="" />
+						</div>
+						<div class="col-md-3 w3ls-about-grid">
+							<img src="images/a4.jpg" alt="" />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- services -->
+	<div class="services" id="services">
+		<div class="w3-services-top">
+			<h3>S</h3>
+		</div>
+		<div class="w3l-about w3l-services">
+			<div class="container">
+				<div class="w3ls-heading">
+					<h3>提供的服务</h3>
+				</div>
+				<div class="agileits-services-grids">
+					<div class="col-md-4 agileits-services-grid">
+						<i class="fa fa-bus" aria-hidden="true"></i>
+						<h4>汽车租借</h4>
+						<p>你可以通过电话或直接上门咨询车型及价格，之后您和我们联系确定您的用车时间、地点、行程。在双方确认并认同价格和行程及车辆时交付定金签订合同或口头协议。</p>
+					</div>
+					<div class="col-md-4 agileits-services-grid">
+						<i class="fa fa-credit-card" aria-hidden="true"></i>
+						<h4>保险签证</h4>
+						<p>全球旅行保障，覆盖全球。无不承保地区。多国游览、长期商务驻扎或商务考察，无论您身在世界何处，都有我们为您保驾护航。保障全面，涵盖拒签、意外、财物、自驾、救援等多种保障，让您真正畅行无忧。</p>
+					</div>
+					<div class="col-md-4 agileits-services-grid">
+						<i class="fa fa-gift" aria-hidden="true"></i>
+						<h4>旅游基金</h4>
+						<p>通过电子邮件邀请您的好友加入，或者在Facebook或Twitter上分享您的好友推荐代码。如果您向好友发送￥199旅行基金，那么当您的好友旅行时您将获得￥199。</p>
+					</div>
+					<div class="col-md-4 agileits-services-grid">
+						<i class="fa fa-plane" aria-hidden="true"></i>
+						<h4>机票预定</h4>
+						<p>提供机票查询,机票预订和特价机票,打折机票查询,特价机票价格查询服务。同时为您提供机票价格查询预订、航班查询服务、航班时刻表查询、实时起降查询等。详情电话咨询</p>
+					</div>
+					<div class="col-md-4 agileits-services-grid">
+						<i class="fa fa-subway" aria-hidden="true"></i>
+						<h4>火车旅行</h4>
+						<p>购票需提供身份证、护照和签证的原件或复印件，车站提前40天预定，隔月票不能退换。坐火车旅行不用那么忙碌的为了旅行而旅行，在火车上一路看到文化过渡的脉络，再好不过了。</p>
+					</div>
+					<div class="col-md-4 agileits-services-grid">
+						<i class="fa fa-ship" aria-hidden="true"></i>
+						<h4>邮轮旅游</h4>
+						<p>邮轮世界，带你‘邮’遍世界！我们为你提供专业的全球邮轮预订服务,产品包括全球十大邮轮品牌、九大邮轮航线,第一时间发布特价邮轮,同时提供详尽的邮轮和目的地资料以及丰富的邮轮游记攻略。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	<!-- gallery -->
+	<div class="gallery" id="gallery">
+		<div class="w3-gallery-top">
+			<h3>H</h3>
+		</div>
+		<div class="w3l-about w3l-gallery">
+			<div class="container">
+				<div class="w3ls-heading">
+					<h3>热门景点</h3>
+				</div>
+				<div class="gallery-grids">
+						<div class="col-md-3 gallery-grid">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<a class="example-image-link" href="images/g1.jpg" data-lightbox="example-set" data-title="马丘比丘（Machu Picchu ），又译麻丘比丘，位于现今的秘鲁（Peru）境内库斯科（Cuzco）西北75公里，整个遗址高耸在海拔约2350米的山脊上，俯瞰着乌鲁班巴河谷，为热带丛林所包围，是秘鲁著名的前哥伦布时期印加帝国建于约公元1500年的遗迹，也是世界新七大奇迹之一。由于独特的位置、地理特点和发现时间较晚，马丘比丘成了印加帝国最为人所熟悉的标志。在1983年，马丘比丘被联合国教科文组织定为世界遗产，是世界上为数不多的文化与自然双重遗产之一。">
+										<img src="images/g1.jpg" alt="" />
+										<figcaption>
+										</figcaption>	
+									</a>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-3 gallery-grid">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<a class="example-image-link" href="images/g2.jpg" data-lightbox="example-set" data-title="巴黎（Paris），法兰西共和国首都，法国最大城市，欧洲第二大城市。巴黎建都已有1400多年的历史，它不仅是法国，也是西欧的一个政治、经济和文化中心，，巴黎香水有“梦幻工业”之称。巴黎是历史之城、美食之都和创作重镇。巴黎是著名的世界艺术之都，印象派美术发源地，芭蕾舞的诞生地，欧洲启蒙思想运动中心，电影的故乡，现代奥林匹克运动会创始地。巴黎又是世界公认的文化之都，大量的科学机构、研究院、图书馆、博物馆、电影院、剧院、音乐厅分布于全市的各个角落。">
+										<img src="images/g2.jpg" alt="" />
+										<figcaption>
+										</figcaption>	
+									</a>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-3 gallery-grid">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<a class="example-image-link" href="images/g3.jpg" data-lightbox="example-set" data-title="爱琴海(Αιγαίο Πέλαγος)，世界著名旅游胜地，位于希腊半岛和小亚细亚半岛之间，南抵克里特岛，属地中海的一部分。爱琴海是黑海沿岸国家通往地中海以及大西洋、印度洋的必经水域，在航运和战略上具有重要地位。海域南北长610公里，东西宽300公里，海岸线非常曲折，港湾众多，岛屿星罗棋布，它不仅是西方欧洲文明的摇篮，对世界各国旅客来说，更是浪漫情调旅程的象征。">
+										<img src="images/g3.jpg" alt="" />
+										<figcaption>
+										</figcaption>		
+									</a>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-3 gallery-grid">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<a class="example-image-link" href="images/g4.jpg" data-lightbox="example-set" data-title="布鲁塞尔（Brussels）是比利时的首都和最大的城市，也是欧洲联盟的主要行政机构所在地，北大西洋公约组织总部驻地，有欧洲的首都之称。布鲁塞尔位于塞纳河畔，布鲁塞尔的建筑物，从带有浓郁中世纪风格的大广场到充满后现代艺术意味的欧盟建筑群，包含了多种元素和文化符号。布鲁塞尔拥有全欧洲最精美的建筑和博物馆，摩天大楼和中世纪古建筑相得益彰。整座城市以皇宫为中，沿“小环”而建，游览以步行为佳。">
+										<img src="images/g4.jpg" alt="" />
+										<figcaption>
+										</figcaption>	
+									</a>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-3 gallery-grid">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<a class="example-image-link" href="images/g5.jpg" data-lightbox="example-set" data-title="新西兰（New Zealand），又译纽西兰，新西兰也是大洋洲最美丽的国家之一，总计约有30%的国土为保护区。拥有3项世界遗产、14个国家公园、3座海洋公园、数百座自然保护区和生态区。新西兰最美丽的地方是岛屿湾，那里主要城市有：派西亚，拉塞尔和怀唐伊。拉塞尔曾经是新西兰的第一个首都，派西亚属于岛屿湾中间位置，有更多的酒店。">
+										<img src="images/g5.jpg" alt="" />
+										<figcaption>
+										</figcaption>	
+									</a>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-3 gallery-grid">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<a class="example-image-link" href="images/g6.jpg" data-lightbox="example-set" data-title="纽约市（City of New York），美国第一大城市及第一大港，是众多世界级画廊和演艺比赛场地的所在地，使其成为西半纽约纽约球的文化及娱乐中心之一。由于纽约24小时运营地铁和从不间断的人群，纽约又被称为“不夜城”，纽约是世界上无与伦比的娱乐城市。芭蕾、古典音乐、歌剧、大型音乐会、爵士音乐、摇摆舞；戏剧、电影、卡巴莱歌剧表演、迪斯科、钢琴演奏表演应有尽有，生动活泼，扣人心弦。纽约作为世界上摩天大楼最多的城市，以建筑本身作为景点的当然就不在少数。想要一睹现代文明的壮观景象，绝对不能错过帝国大厦、克莱斯勒大厦和克菲勒中心。">
+										<img src="images/g6.jpg" alt="" />
+										<figcaption>
+										</figcaption>		
+									</a>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-3 gallery-grid">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<a class="example-image-link" href="images/g7.jpg" data-lightbox="example-set" data-title="东京（Tokyo），日本国行政区，位于日本本州岛关东平原南端。东京的著名观光景点有东京铁塔、皇居、东京国会议事堂、浅草寺、浜离宫、上野公园与动物园、葛西临海公园、台场与彩虹大桥、东京迪士尼乐园、代代木公园、日比谷公园、新宿御苑、幕张奥特莱斯（outlets）、奥多摩湖、Hello kitty 乐园、明治神宫、忍野八海、池袋、上野公园、东映动漫Gallery、涩谷、升仙峡、丰田汽车会馆、筑地市场、千鸟之渊、秋叶原、二重桥、隅田公园、滨离宫庭园 Tsukiji鱼市等。">
+										<img src="images/g7.jpg" alt="" />
+										<figcaption>
+										</figcaption>	
+									</a>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-3 gallery-grid">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<a class="example-image-link" href="images/g8.jpg" data-lightbox="example-set" data-title="巴黎（Paris），法兰西共和国首都，法国最大城市，欧洲第二大城市。巴黎建都已有1400多年的历史，它不仅是法国，也是西欧的一个政治、经济和文化中心，，巴黎香水有“梦幻工业”之称。巴黎是历史之城、美食之都和创作重镇。巴黎是著名的世界艺术之都，印象派美术发源地，芭蕾舞的诞生地，欧洲启蒙思想运动中心，电影的故乡，现代奥林匹克运动会创始地。巴黎又是世界公认的文化之都，大量的科学机构、研究院、图书馆、博物馆、电影院、剧院、音乐厅分布于全市的各个角落。">
+										<img src="images/g8.jpg" alt="" />
+										<figcaption>
+										</figcaption>	
+									</a>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-3 gallery-grid">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<a class="example-image-link" href="images/g9.jpg" data-lightbox="example-set" data-title="圣心教堂（Basilique du Sacré Coeur）位于巴黎的蒙马特高地。教堂建筑风格独特，既似罗马式，又似拜占廷式。它始建于1876年，于1919年落成，是由全法国的忠实信徒捐款兴建的。教堂里面有许多浮雕、壁画和马赛克镶嵌画。这里颇具吸引力的地方是蒙马特广场，它是巴黎最有艺术特色的地方。不知从何时开始，这里成了露天大画室，很多年轻画家在此写生。教堂后部有一座高84米的方型钟楼，里面有一只世界最大的萨瓦钟，重19吨，是世界上最大的钟之一。">
+										<img src="images/g9.jpg" alt="" />
+										<figcaption>
+										</figcaption>		
+									</a>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-3 gallery-grid">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<a class="example-image-link" href="images/g10.jpg" data-lightbox="example-set" data-title="新泽西州是美国第四小以及人口密度最高的州。其州昵称为“花园州”。美东华人亦称之为新州。新泽西州北接纽约州，东面大西洋，南向特拉华州，西临宾夕法尼亚州。新泽西部分地区是被划分在几个主要都会区，其中属纽约都会区的面积最大，其他还有费城以及特拉华峡谷地区。">
+										<img src="images/g10.jpg" alt="" />
+										<figcaption>
+										</figcaption>		
+									</a>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-3 gallery-grid">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<a class="example-image-link" href="images/g11.jpg" data-lightbox="example-set" data-title="迪拜（Dubai），现代化的国际大都市，阿联酋人口最多的城市，中东第二富裕的城市，中东地区的经济和金融中心，被称为中东北非地区的“贸易之都”。迪拜是全球性国际金融中心之一，成为了东、西方各资本市场之间的桥梁，同时也成为了重要的物流、贸易、交通运输、旅游和购物中心。拥有世界上第一家七星级酒店（帆船酒店）、世界最高的摩天大楼（哈利法塔）、全球最大的购物中心、世界最大的室内滑雪场等，以活跃的房地产、赛事、会谈等近乎世界纪录的特色吸引了全世界的目光。">
+										<img src="images/g11.jpg" alt="" />
+										<figcaption>
+										</figcaption>		
+									</a>
+								</figure>
+							</div>
+						</div>
+						<div class="col-md-3 gallery-grid">
+							<div class="grid">
+								<figure class="effect-apollo">
+									<a class="example-image-link" href="images/g12.jpg" data-lightbox="example-set" data-title="悉尼（Sydney），澳大利亚第一大城市及澳大利亚新南威尔士州首府，位于澳大利亚的东南沿岸，是澳大利亚的经济、文化、政治与旅游中心，世界著名的国际大都市。悉尼是澳大利亚最大的城市，也是南半球社会最富裕，经济最发达的城市。悉尼拥有傲视全球的风景线，被誉为“全球最美丽的城市”之一，由于这里拥有宜人的气候、洁净的环境、香甜的空气、高品质的生活，悉尼多次被联合国评为是全球最适宜人类居住的城市之一，悉尼以情人港、海滩、歌剧院和港湾大桥等标志性建筑而闻名遐迩。">
+										<img src="images/g12.jpg" alt="" />
+										<figcaption>
+										</figcaption>		
+									</a>
+								</figure>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+						<script src="js/lightbox-plus-jquery.min.js"> </script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //gallery -->
+	<!-- news -->
+	<div class="news" id="news">
+		<div class="w3-news-top">
+			<h3>T</h3>
+		</div>
+		<div class="w3l-about w3l-news">
+			<div class="container">
+				<div class="w3ls-heading">
+					<h3>旅行日志</h3>
+				</div>
+				<div class="wthree-news-grids">
+					<div class="col-md-6 agile-news-right-info">
+						<div class="col-sm-4 agile-news-img">
+							
+						</div>
+						<div class="col-sm-8 agile-news-img-info">
+							<h5><a href="#" data-toggle="modal" data-target="#myModal">一个人的旅行</a></h5>
+							<div class="agileits-w3layouts-border"> </div>
+							<p>我不是一只小鸟，可我却贪恋天空的美丽，其实，我只是爱自由。<br>一个人的旅行应该是很美好的，所以向往着。</p>
+							<h6><i class="fa fa-calendar" aria-hidden="true"></i> 24th Dec,2016</h6>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 agile-news-right-info">
+						<div class="col-sm-4 agile-news-img agile-news-img1">
+								
+						</div>
+						<div class="col-sm-8 agile-news-img-info">
+							<h5><a href="#" data-toggle="modal" data-target="#myModal">旅行路上的人生</a></h5>
+							<div class="agileits-w3layouts-border"> </div>
+							<p>真正的旅行，从来不是一堆照片的堆砌和满足内心小小的虚荣。<br>南风徐徐，暖意融融，我尽力把自己的放在大自然中</p>
+							<h6><i class="fa fa-calendar" aria-hidden="true"></i> 20th Jan,2017</h6>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //news -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						<h4 class="modal-title">一个人 <span>旅行</span></h4>
+						<h5>24th Dec,2016</h5>
+					</div> 
+					<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/1a.jpg" alt="" />
+						<p>人生中总有太多的无奈，太多的落寞，失去和拥有总在交替中扰乱我们原本平静的心，有时真想，一个人的旅行应该是很美好的，所以向往着。也许一个人的日子的苦闷，只有自己知道，也许，思念一个人的日子的苦涩，只有相思的人知道。南风徐徐，暖意融融，我尽力的把自己的人放在大自然中，包括心，不再让思绪停留在那个死角里。我的无助，我的彷徨，你可曾看到？你可曾知道，我在这样的圈子里徘徊、等待、忧伤、无奈。好想放下这里所有的一切，一个人旅行。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+	<!-- team -->
+	<div class="team">
+		<div class="w3-team-top">
+			<h3>T</h3>
+		</div>
+		<div class="w3l-about w3l-team">
+			<div class="container">
+				<div class="w3ls-heading">
+					<h3>我们的团队</h3>
+				</div>
+				<div class="agile-team-grids">
+					<div class="col-sm-3 team-grid">
+						<div class="flip-container">
+							<div class="flipper">
+								<div class="front">
+									<img src="images/t1.jpg" alt="" />
+								</div>
+								<div class="back">
+									<h4>总经理</h4>
+									<p>吴坚</p>
+									<div class="w3l-social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-rss"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 team-grid">
+						<div class="flip-container">
+							<div class="flipper">
+								<div class="front">
+									<img src="images/t2.jpg" alt="" />
+								</div>
+								<div class="back">
+									<h4>总经理</h4>
+									<p>熊小鹏</p>
+									<div class="w3l-social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-rss"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 team-grid">
+						<div class="flip-container">
+							<div class="flipper">
+								<div class="front">
+									<img src="images/t3.jpg" alt="" />
+								</div>
+								<div class="back">
+									<h4>总经理</h4>
+									<p>郭凌云</p>
+									<div class="w3l-social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-rss"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 team-grid">
+						<div class="flip-container">
+							<div class="flipper">
+								<div class="front">
+									<img src="images/t4.jpg" alt="" />
+								</div>
+								<div class="back">
+									<h4>总经理</h4>
+									<p>胡润</p>
+									<div class="w3l-social">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-rss"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
+	<!-- subscribe -->
+	<div class="subscribe">
+		<div class="w3-subscribe-top">
+			<h3>S</h3>
+		</div>
+		<div class="w3l-about w3l-team">
+			<div class="container">
+				<div class="w3ls-heading">
+					<h3>关注我们</h3>
+				</div>
+				<div class="w3-agile-subscribe">
+					<p>我们会将最新的旅游信息定时的发往你的邮箱</p>
+					<form action="#" method="post">
+						<input type="email" id="mc4wp_email" name="EMAIL" placeholder="输入您的电子邮件" required="">
+						<input type="submit" value="关注">
+					</form>
+					<h5>或者</h5>
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //subscribe -->
+	<!-- contact -->
+	<div class="contact" id="contact">
+		<div class="w3-contact-top">
+			<h3>C</h3>
+		</div>
+		<div class="w3l-about w3l-team">
+			<div class="container">
+				<div class="w3ls-heading">
+					<h3>联系我们</h3>
+				</div>
+				<div class="agile-contact-grids">
+					<div class="col-md-5 address">
+						<h4>联系信息</h4>
+						<div class="address-row">
+							<div class="col-md-2 w3-agile-address-left">
+								<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							</div>
+							<div class="col-md-10 w3-agile-address-right">
+								<h5>地址</h5>
+								<p>山西省太原市学府街平阳路口凯通大厦二层</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="address-row">
+							<div class="col-md-2 w3-agile-address-left">
+								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+							</div>
+							<div class="col-md-10 w3-agile-address-right">
+								<h5>邮件</h5>
+								<p><a href=""> 1260771866@qq.com</a></p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="address-row">
+							<div class="col-md-2 w3-agile-address-left">
+								<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+							</div>
+							<div class="col-md-10 w3-agile-address-right">
+								<h5>电话</h5>
+								<p>+1 234 567 8901</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="col-md-7 contact-form">
+						<form action="#" method="post">
+							<input type="text" name="First Name" placeholder="名" required="">
+							<input class="email" name="Last Name" type="text" placeholder="姓" required="">
+							<input type="text" name="Number" placeholder="手机号" required="">
+							<input class="email" name="Email" type="email" placeholder="电子邮件" required="">
+							<textarea name="Message" placeholder="你要提交的内容" required=""></textarea>
+							<input type="submit" value="提交">
+						</form>
+					</div>
+					<div class="clearfix"> </div>	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="copyright">
+				<p>© 2017 Global Tourism . All Rights Reserved | Design by <a href="">朱大师</a> </p>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>	
+</html>
